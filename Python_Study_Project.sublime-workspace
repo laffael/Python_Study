@@ -8,10 +8,18 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Windows/System32/drivers/etc/hosts",
+			"file": "readme.md",
 			"settings":
 			{
-				"buffer_size": 911,
+				"buffer_size": 50,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "remove",
+			"settings":
+			{
+				"buffer_size": 0,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -40,10 +48,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "tmpl",
+		"height": 108.0,
+		"last_filter": "markdown  g",
 		"selected_items":
 		[
+			[
+				"markdown  g",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"markdown  gfm",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdown g",
+				"Set Syntax: Markdown GFM"
+			],
 			[
 				"tmpl",
 				"Tmpl: Create python"
@@ -122,16 +142,26 @@
 	},
 	"expanded_folders":
 	[
-		"/f/sublime/python"
+		"/F/Sublime/Python_Study"
 	],
 	"file_history":
 	[
+		"/F/Sublime/Python_Study/readme.md",
+		"/F/Sublime/Python_Study/.git/logs/HEAD",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/F/Sublime/github SSH/id_rsa.pub",
+		"/F/Sublime/ssh.pub",
+		"/C/Program Files/Git/etc/ssh/ssh_config",
+		"/C/Program Files/Git/etc/profile",
+		"/C/Program Files/Git/etc/inputrc",
+		"/C/Program Files/Git/etc/gitconfig",
 		"/F/Raphael/AppData/Roaming/Rime/weasel.custom.yaml",
 		"/F/快盘/分类/文档/0C161600",
 		"/F/treeinfo.wc",
 		"/C/Users/Administrator/AppData/Local/Temp/Rar$DRa0.583/Jason.Bourne.2016.1080p.WEB-DL.DD5.1.H264-FGT/Jason.Bourne.2016.1080p.WEB-DL.DD5.1.H264-FGT.简体&英文.srt",
 		"/C/Windows/system/Dandelion_Config",
-		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Windows/System32/drivers/etc/hosts2",
 		"/C/Program Files/totalcmd/TOTALCMD.INC",
 		"/F/快盘/Study/IT/编程/Totalcommand/Total Commander 常用快捷键.md",
@@ -226,6 +256,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"color",
 			"2912",
 			"run currentfile",
 			"郴州",
@@ -258,24 +289,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Windows/System32/drivers/etc/hosts",
+					"file": "readme.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 911,
+						"buffer_size": 50,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								822,
-								822
+								0,
+								0
 							]
 						],
 						"settings":
@@ -298,64 +329,165 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "remove",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
