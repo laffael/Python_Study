@@ -1,0 +1,461 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Windows/System32/drivers/etc/hosts",
+			"settings":
+			{
+				"buffer_size": 911,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "tmpl",
+		"selected_items":
+		[
+			[
+				"tmpl",
+				"Tmpl: Create python"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"install",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"side bar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"sta",
+				"Stackoverflow: Search from Input"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"python",
+				"Tmpl: Create python"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"source",
+				"SourceTree: Open SourceTree"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 349.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/f/sublime/python"
+	],
+	"file_history":
+	[
+		"/F/Raphael/AppData/Roaming/Rime/weasel.custom.yaml",
+		"/F/快盘/分类/文档/0C161600",
+		"/F/treeinfo.wc",
+		"/C/Users/Administrator/AppData/Local/Temp/Rar$DRa0.583/Jason.Bourne.2016.1080p.WEB-DL.DD5.1.H264-FGT/Jason.Bourne.2016.1080p.WEB-DL.DD5.1.H264-FGT.简体&英文.srt",
+		"/C/Windows/system/Dandelion_Config",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Windows/System32/drivers/etc/hosts2",
+		"/C/Program Files/totalcmd/TOTALCMD.INC",
+		"/F/快盘/Study/IT/编程/Totalcommand/Total Commander 常用快捷键.md",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SublimeTmpl.sublime-settings",
+		"/F/Sublime/python/practice.py",
+		"/F/迅雷下载/T36508501.html",
+		"/F/迅雷下载/T36391991.html",
+		"/F/迅雷下载/T36426670.html",
+		"/F/Sublime/python/Python_Study_Project.sublime-project",
+		"/f/sublime/python/Python_Study_Project.sublime-project",
+		"/F/Sublime/python/d.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/F/Raphael/Documents/Tencent Files/674333025/FileRecv/Younger brother1+2_8.zip",
+		"/F/Raphael/Downloads/wordlist.txt",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/F/Sublime/python/mathsublime.py",
+		"/F/迅雷下载/download (10).php",
+		"/F/迅雷下载/Code.Black.S02E06.720p.HDTV.x264-KILLERS[rartv]-[rarbg.com].torrent",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/F/Raphael/Desktop/Dear Mr. Zuhair Awartani.txt",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/F/Raphael/Desktop/Dear Mr. Zuhair Awartani2.txt",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/F/Sublime/python/math.py",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin_simp.prism.bin",
+		"/F/Raphael/AppData/Roaming/Rime/installation.yaml",
+		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/luna_pinyin.extended.dict.yaml",
+		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/luna_pinyin.custom.yaml",
+		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/luna_pinyin_simp.schema.yaml",
+		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/luna_pinyin.dict.yaml",
+		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/pinyin_simp.dict.yaml",
+		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/pinyin_simp.schema.yaml",
+		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/default.yaml",
+		"/F/Raphael/AppData/Roaming/Rime/default.yaml",
+		"/F/Raphael/AppData/Roaming/Rime/default.custom.yaml",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.extended.dict.yaml",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin_simp.schema.yaml",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin_simp.custom.yaml",
+		"/F/Sublime/python/hello.py",
+		"/F/Sublime/python/hello.pyc",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin_simp.custom.yaml2",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.sogouadd.yaml",
+		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/2.txt",
+		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/饮食大全【官方推荐】.txt",
+		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/luna_pinyin.userdb.txt",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.hanyu.dict.yaml",
+		"/F/Raphael/AppData/Roaming/Rime/user.yaml",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.userdb.kct",
+		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/luna_pinyin.extended.dict.yaml",
+		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/luna_pinyin.schema.yaml",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.schema.yaml",
+		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/luna_pinyin.cn_en.dict.yaml",
+		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/double_pinyin.custom.yaml",
+		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/luna_pinyin.poetry.dict.yaml",
+		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/luna_pinyin.hanyu.dict.yaml",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.sogou.table.bin",
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.sogou.reverse.bin",
+		"/F/快盘/Study/编程/Sublime/各种快捷键.md",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/F/快盘/Study/编程/Python/Practice/hello.py",
+		"/F/快盘/Study/编程/Python/Practice/ttmeiju.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/F/快盘/Study/编程/Python/Practice/practice.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/Main.sublime-menu",
+		"/F/Raphael/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/templates/python.tmpl",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Python2.sublime-build",
+		"/F/快盘/Study/编程/Sublime/asd.md",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 135.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"2912",
+			"run currentfile",
+			"郴州",
+			"湖南",
+			"schema",
+			"scheme",
+			"sheme",
+			"false",
+			",\n",
+			"false",
+			"file",
+			"python",
+			"change",
+			"python",
+			"python_inter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Windows/System32/drivers/etc/hosts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								822,
+								822
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 244.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 208.0
+	},
+	"pinned_build_system": "Packages/User/Python2.sublime-build",
+	"project": "Python_Study_Project.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
