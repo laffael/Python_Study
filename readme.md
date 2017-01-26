@@ -1,1 +1,1 @@
-new line
+This folder is for Git control of Python learning.
