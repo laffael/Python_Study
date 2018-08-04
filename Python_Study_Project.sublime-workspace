@@ -3,31 +3,131 @@
 	{
 		"selected_items":
 		[
+			[
+				"Number",
+				"Number_of_months\tstatement"
+			],
+			[
+				"import",
+				"import\tkeyword"
+			],
+			[
+				"ran",
+				"random\tstatement"
+			],
+			[
+				"rn",
+				"random\tstatement"
+			],
+			[
+				"t",
+				"True"
+			],
+			[
+				"r",
+				"random\tstatement"
+			],
+			[
+				"l",
+				"log2\tfunction"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"a_",
+				"a_very_long_variable_name_dont_name_them_this_long_pls\tstatement"
+			],
+			[
+				"wit",
+				"With"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "readme.md",
+			"file": "Py_Work.py",
 			"settings":
 			{
-				"buffer_size": 50,
+				"buffer_size": 652,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "remove",
+			"contents": "",
+			"file": "Py_Test.py",
+			"file_size": 790,
+			"file_write_time": 131640263012382963,
 			"settings":
 			{
 				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nGitGutter\n---------\n\n  1.7.15:\n  -------\n  \n    Fix:\n     - Compatibility issue of GitGutter with Snap on Ubuntu (#495)\n     - Write access regression when creating temp dir (#498)\n  \n    Enhancement:\n     - Reduce number of git --version calls (#493)\n  \n  \n  💛 Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n  \n  🏅 ⭐ ES6 ⭐\n  \n  👉 ES6.io/friend/GITGUTTER\n  \n  🏅 ⭐ Sublime Text Book ⭐\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  \n  🏅 ⭐ React For Beginners ⭐\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  \n  \n  Join 15,000 other developers already learning with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n\n\nMarkdownPreview\n---------------\n\n  # Changes\n  \n  ## 2.0.1\n  \n  - Fix missing code highlight extension.\n  - Fix build command failing.\n  \n  ## 2.0.0\n  \n  Please read documentation as there have been big changes in this version which may require updates to your personal settings.\n  \n  * Do not vendor Python Markdown. Python Markdown will be acquired via the current markdown dependency.\n  \n  * Python Markdown configuration changes:\n  \n      * No more defining settings as `extension(option1=a,option2=b)`. Options will be defined as a dictionary.\n      * You will have to define the full extension name: `markdown.extensions.codehilite`. This will allow you to import any extension you want outside of Markdown Preview.\n      * New line to `<br>` conversion has been dropped from GitHub emulation as GitHub no longer does this. Ref issue #374.\n  \n  * Originally a couple pymdownx-extension extensions were ported over to this plugin to give a GitHub-ish feel to Markdown, these are no longer be included directly, but are included as a dependency. This will provide the latest versions, and also provide new extensions previously not included. Ref issue #378.\n  \n  * Drop ST2 so we no longer have to provide specially crafted Python Markdown versions when we try to upgrade.\n  \n  * Improve yaml front matter parsing: see issue #392.\n  \n  * Better UML JavaScript injection.\n  \n  * Link contributors in readme.\n  \n  * Remove \"magic\" Pygments configuration. User will now explicitly configure Pygments CSS injection separately.\n  \n  * Require explicit parser name moving forward instead of default, but provide a deprecation path for the short term.\n  \n  * Fix GitHub header ID generation. GitHub only lowercases ASCII chars.\n  \n  * Ensure default parser is Python Markdown, and enable auto-reload by default.\n  \n  * Hopefully better documentation.\n  \n  * Make flake8 compatible.\n  \n  * Fix outdated links.\n  \n  * Remove MathJax and UML option in favor of a more generalized solution via the pre-existing `css` option.\n  \n  * Remove `embed_css_for_sublime_output` option in favor of more generalized `include_head` option.\n  \n  ## 1.4.3\n  \n  * Fix issue where Chrome prevents live reload.\n  \n  ## 1.4.0\n  \n  * `css` setting can now be an array and contain multiple CSS files (see settings file for more info).\n  * Updated GitHub style to latest.\n  \n  ## 1.3.0\n  \n  * Now supports any markdown parser through a generalized method.  Now you can map a binary to parser name via `markdown_binary_map`.  Then use the parser name in `enabled_parsers` to use it.\n  * MultiMarkdown specific settings have been removed.  MultiMarkdown should now be configured via `markdown_binary_map` and `enabled_parsers`.\n  * Upgraded to Python Markdown 2.6.4.\n  * Removed internal PyYaml and Pygments.  Markdown Preview now uses Package Control dependencies to obtain PyYaml and Pygments.\n  * Update kbd CSS for GitHub.\n  \n  ## 1.0.3\n  \n  * The `messages.json` should OK for this time.\n  \n  ## 1.0.2\n  \n  * Fixes messages.json and changelog versions.\n  \n  ## 1.0.1\n  \n  * Removed markdown2 parser for its not well maintained and buggy.\n  * Make Python Markdown parser as default.\n  * Split the preview commands for *Python Markdown* parser and *GitHub Flavored Markdown* parser.\n  * Add markdown file build support, build parser are config via the origin `\"parser\"` settings.\n  * Add this changelog file for both developers and users.\n  * Add messages.json which make display of `README.md` and `CHANGES.md`\n  * Try use `Markdown Extended.tmLanguage` for cheat sheet if you installed `Markdown Extended`.\n  \n  ## 1.0.0\n  \n  * Support for ST3.\n  * Added Python Markdown parser.\n  * CSS search first in markdown file directory and the the build-in.\n\n\nGitGutter\n---------\n\n  1.8.0:\n  ======\n  \n     A N N O U N C E M E N T\n  \n     This pre-release adds enables usage of Windows Subsystem for Linux (WSL).\n  \n     To enable WSL just setup a unix-like path in the \"git_binary\" setting.\n  \n         \"git_binary\": \"/usr/bin/git\"\n  \n     Known Issues:\n      1. Git via WSL runs 2 to 3 times slower than Git for Windows, which may\n         cause some reasonable delayes here and there.\n      2. The WSL seems to have some issues with passing long texts through the\n         stdio interface. The content is simply truncated sometimes. This issue\n         is worked around by reading the commited file content directly into the\n         cache file, but the result of a `git diff` may still be truncated on\n         large files. So GitGutter may not see some of the changes in a file.\n  \n         This WSL issue which can't be fixed by GitGutter at the moment.\n  \n    ---------------------------------------------------------------------------\n  \n     C H A N G E L O G\n  \n    Enhancement:\n     - Sort settings by categories\n     - Directly write git cache file to disk\n     - Improve status bar text rendering\n  \n    Internal:\n     - Directly start asynchronous processes\n     - Create GitGutterViewCache class\n     - some others ...\n  \n    Fix:\n     - Check git version after settings change.\n     - Always checkout files with LF on any OS.\n     - Ensure not to leave zombie event listeners\n     - Don't overwrite global settings in EventListener\n     - Enable GitGutter via Preferences only.\n  \n    README:\n     - Update git_binary settings section\n  \n    Feature:\n     - Add WSL support (#500)\n  \n  \n  💛 Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n  \n  🏅 ⭐ ES6 ⭐\n  \n  👉 ES6.io/friend/GITGUTTER\n  \n  🏅 ⭐ Sublime Text Book ⭐\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  \n  🏅 ⭐ React For Beginners ⭐\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  \n  \n  Join 15,000 other developers already learning with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n\n  1.8.0-rc.2:\n  ===========\n  \n    Fix:\n     - Regression causing an exception on untracked/ignored files\n\n  1.8.0-rc.1:\n  ===========\n  \n     A N N O U N C E M E N T\n  \n     This pre-release adds enables usage of Windows Subsystem for Linux (WSL).\n  \n     To enable WSL just setup a unix-like path in the \"git_binary\" setting.\n  \n         \"git_binary\": \"/usr/bin/git\"\n  \n     Known Issues:\n      1. Git via WSL runs 2 to 3 times slower than Git for Windows, which may\n         cause some reasonable delayes here and there.\n      2. The WSL seems to have some issues with passing long texts through the\n         stdio interface. The content is simply truncated sometimes. This issue\n         is worked around by reading the commited file content directly into the\n         cache file, but the result of a `git diff` may still be truncated on\n         large files. So GitGutter may not see some of the changes in a file.\n  \n         This WSL issue which can't be fixed by GitGutter at the moment.\n  \n    ---------------------------------------------------------------------------\n  \n     C H A N G E L O G\n  \n    Enhancement:\n     - Sort settings by categories\n     - Directly write git cache file to disk\n     - Improve status bar text rendering\n  \n    Internal:\n     - Directly start asynchronous processes\n     - Create GitGutterViewCache class\n     - some others ...\n  \n    Fix:\n     - Check git version after settings change.\n     - Always checkout files with LF on any OS.\n     - Ensure not to leave zombie event listeners\n     - Don't overwrite global settings in EventListener\n     - Enable GitGutter via Preferences only.\n  \n    README:\n     - Update git_binary settings section\n  \n    Feature:\n     - Add WSL support (#500)\n\n\nMarkdownPreview\n---------------\n\n  # Changes\n  \n  ## 2.1.2\n  \n  - Don't allow live reload on save if using GitHub parser with no OAuth.\n  \n  ## 2.1.1\n  \n  - Revert `autoNumber` set to `all` in MathJax config.\n  - Revert alignment left of MathJax display equations as the default has always been center prior to 2.0 releases.\n  \n  ## 2.1.0\n  \n  - Add support for KaTeX math.\n  - Ensure MathJax properly looks for `\\begin{env}...\\end{env}`.\n  - Unified menu.\n  \n  ## 2.0.3\n  \n  - MathJax should only scan for `arithmatex` classes in HTML.\n  \n  ## 2.0.2\n  \n  - Code highlighting should have guessing disabled by default.\n  - Fix failure when code highlighting has guessing enabled, but the user specified a language name which has no lexer.\n  \n  ## 2.0.1\n  \n  - Fix missing code highlight extension.\n  - Fix build command failing.\n  \n  ## 2.0.0\n  \n  Please read documentation as there have been big changes in this version which may require updates to your personal settings.\n  \n  * Do not vendor Python Markdown. Python Markdown will be acquired via the current markdown dependency.\n  \n  * Python Markdown configuration changes:\n  \n      * No more defining settings as `extension(option1=a,option2=b)`. Options will be defined as a dictionary.\n      * You will have to define the full extension name: `markdown.extensions.codehilite`. This will allow you to import any extension you want outside of Markdown Preview.\n      * New line to `<br>` conversion has been dropped from GitHub emulation as GitHub no longer does this. Ref issue #374.\n  \n  * Originally a couple pymdownx-extension extensions were ported over to this plugin to give a GitHub-ish feel to Markdown, these are no longer be included directly, but are included as a dependency. This will provide the latest versions, and also provide new extensions previously not included. Ref issue #378.\n  \n  * Drop ST2 so we no longer have to provide specially crafted Python Markdown versions when we try to upgrade.\n  \n  * Improve yaml front matter parsing: see issue #392.\n  \n  * Better UML JavaScript injection.\n  \n  * Link contributors in readme.\n  \n  * Remove \"magic\" Pygments configuration. User will now explicitly configure Pygments CSS injection separately.\n  \n  * Require explicit parser name moving forward instead of default, but provide a deprecation path for the short term.\n  \n  * Fix GitHub header ID generation. GitHub only lowercases ASCII chars.\n  \n  * Ensure default parser is Python Markdown, and enable auto-reload by default.\n  \n  * Hopefully better documentation.\n  \n  * Make flake8 compatible.\n  \n  * Fix outdated links.\n  \n  * Remove MathJax and UML option in favor of a more generalized solution via the pre-existing `css` option.\n  \n  * Remove `embed_css_for_sublime_output` option in favor of more generalized `include_head` option.\n  \n  ## 1.4.3\n  \n  * Fix issue where Chrome prevents live reload.\n  \n  ## 1.4.0\n  \n  * `css` setting can now be an array and contain multiple CSS files (see settings file for more info).\n  * Updated GitHub style to latest.\n  \n  ## 1.3.0\n  \n  * Now supports any markdown parser through a generalized method.  Now you can map a binary to parser name via `markdown_binary_map`.  Then use the parser name in `enabled_parsers` to use it.\n  * MultiMarkdown specific settings have been removed.  MultiMarkdown should now be configured via `markdown_binary_map` and `enabled_parsers`.\n  * Upgraded to Python Markdown 2.6.4.\n  * Removed internal PyYaml and Pygments.  Markdown Preview now uses Package Control dependencies to obtain PyYaml and Pygments.\n  * Update kbd CSS for GitHub.\n  \n  ## 1.0.3\n  \n  * The `messages.json` should OK for this time.\n  \n  ## 1.0.2\n  \n  * Fixes messages.json and changelog versions.\n  \n  ## 1.0.1\n  \n  * Removed markdown2 parser for its not well maintained and buggy.\n  * Make Python Markdown parser as default.\n  * Split the preview commands for *Python Markdown* parser and *GitHub Flavored Markdown* parser.\n  * Add markdown file build support, build parser are config via the origin `\"parser\"` settings.\n  * Add this changelog file for both developers and users.\n  * Add messages.json which make display of `README.md` and `CHANGES.md`\n  * Try use `Markdown Extended.tmLanguage` for cheat sheet if you installed `Markdown Extended`.\n  \n  ## 1.0.0\n  \n  * Support for ST3.\n  * Added Python Markdown parser.\n  * CSS search first in markdown file directory and the the build-in.\n\n\nSublimeLinter\n-------------\n\n  SublimeLinter 4.6\n  =================\n  \n  You can now set \"lint_mode\" per linter.\n  \n  If you have \"background\" as your default mode, this new setting allows you\n  to run some linters only on save, or manually.\n  \n  http://www.sublimelinter.com/en/stable/linter_settings.html\n",
+			"settings":
+			{
+				"buffer_size": 13565,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "Py_get.py",
+			"settings":
+			{
+				"buffer_size": 19,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Py_Problems.py",
+			"settings":
+			{
+				"buffer_size": 9,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Anaconda Python Builder",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python2.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
 		[
 			[
 				[
@@ -48,10 +148,122 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 108.0,
-		"last_filter": "markdown  g",
+		"height": 428.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"key",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"keybindings",
+				"Preferences: Key Bindings"
+			],
+			[
+				"all key",
+				"FindKeyConflicts: All Key Maps to Buffer"
+			],
+			[
+				"keybing",
+				"Preferences: Key Bindings"
+			],
+			[
+				"findkeycon",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"format",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"sublimlinter setin",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"packa in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter setting",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"autopep",
+				"Preferences: AutoPep8 Settings – Default"
+			],
+			[
+				"auto",
+				"Preferences: AutoPep8 Key Bindings – Default"
+			],
+			[
+				"keybind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"setting user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"pack remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"autop",
+				"Preferences: AutoPep8 Settings – User"
+			],
+			[
+				"key bing",
+				"Preferences: Terminal Key Bindings – User"
+			],
+			[
+				"pakc in",
+				"Package Control: Install Package"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"snippet\t",
+				"Snippet: If Condition"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"markdown  g",
 				"Preferences: MarkdownEditing Settings – Default"
@@ -71,10 +283,6 @@
 			[
 				"git",
 				"Git: Init"
-			],
-			[
-				"install",
-				"Package Control: Advanced Install Package"
 			],
 			[
 				"remove",
@@ -121,13 +329,14 @@
 				"SourceTree: Open SourceTree"
 			]
 		],
-		"width": 528.0
+		"width": 720.0
 	},
 	"console":
 	{
 		"height": 349.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
 			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -142,10 +351,96 @@
 	},
 	"expanded_folders":
 	[
-		"/F/Sublime/Python_Study"
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning"
 	],
 	"file_history":
 	[
+		"/D/Home/Work/OneDrive - 南京新隆立贸易有限公司/01. 溧电工作文件/技术/溧水电子所产品外观图/106A/current_session.pro",
+		"/D/Home/Program Files/Engin/UG 12/License/splm8.lic",
+		"/D/Home/安装包/CREO/_SolidSQUAD_/_SolidSQUAD_/PTC.LICENSE.WINDOWS.2018-03-20-SSQ/FillLicense.bat",
+		"/D/Home/Program Files/Tools/Python 工具包/Pic_Compress.py",
+		"/D/Home/Documents/2010-2014 大学资料/毕业设计文件/my files/LAB_7/Job-1.inp",
+		"/D/Home/Documents/2010-2014 大学资料/毕业设计文件/my files/LAB_7/Job-1.prt",
+		"/D/Home/Documents/2010-2014 大学资料/毕业设计文件/my files/LAB_7/Job-1.odb",
+		"/D/Home/Documents/2010-2014 大学资料/毕业设计文件/my files/LAB_7/Job-1.ipm",
+		"/D/Home/Documents/2010-2014 大学资料/毕业设计文件/my files/LAB_7/Job-1.log",
+		"/C/Users/Raphael/Desktop/SpaceSniffer snapshot.sns",
+		"/D/Home/Downloads/all.txt",
+		"/D/Home/Downloads/锦桐.txt",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/Py_Test.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/Python_Tools/Download_Phub.py",
+		"/D/Home/Work/fsw_mis/public.ini",
+		"/D/Home/Work/fsw_mis/my_config.ini",
+		"/H/06 - 德普电脑同步/1040/17SDV470/2018-03-01 PVOC认证/2018-03-07 完成资料/肯尼亚/肯尼亚-委托单.doc",
+		"/H/06 - 德普电脑同步/1040/17SDV470/2018-03-01 PVOC认证/2018-03-07 完成资料/肯尼亚/PACKING LIST-18DGS023.pdf",
+		"/H/06 - 德普电脑同步/1040/17SDV470/2018-03-01 PVOC认证/2018-03-07 完成资料/肯尼亚/COMMERCIAL INVOICE-18DGS023.pdf",
+		"/D/Ubuntu/sources.list.origin",
+		"/D/Ubuntu/sources.list.USTC",
+		"/D/Ubuntu/sources.list.wangyi",
+		"/D/Ubuntu/sources.list.ali",
+		"/D/Ubuntu/souces.list.bak",
+		"/D/Ubuntu/sources.list",
+		"/D/Ubuntu/sources.list.bak",
+		"/D/Ubuntu/katoolin/katoolin.py",
+		"/D/Home/Downloads/wordpress-4.9.4-zh_CN/wordpress/wp-config-sample.php",
+		"/D/Home/Program Files/Tools/Rainmeter/Rainmeter.ini",
+		"/D/Home/Program Files/Tools/Rainmeter/Skins/超详细系统信息/白色.ini",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/Py_Work.py",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/User/AutoPep8.sublime-settings",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/AutoPep8/AutoPep8.sublime-settings",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/AutoPep8/Default.sublime-keymap",
+		"/D/Home/Downloads/shadowsocks--universal-4.4.6.apk",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MD_Test.md",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/ps1a.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/ps1b.py",
+		"/D/Home/Documents/IT/教程/Python/教程/MIT 2016 Fall Introduction to Computer Science and Programming in Python/03 Problem Sets/ps2/hangman.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/Python_Tools/Network_Tool.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/Test2_3.py",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/exec.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/Test2.py",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/User/sublime-text-markmon.sublime-settings",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/Python_Study_Project.sublime-project",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/TestFiles/__init__.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/Test2_2.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/Test2_4.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/123",
+		"/D/Home/Downloads/重生八零俏军嫂.txt",
+		"/C/Users/Raphael/AppData/Local/Temp/BNZ.5a693766501ae88/code_exam5.py",
+		"/C/Users/Raphael/AppData/Local/Temp/BNZ.5a69375f50192d3/lectureCode_lec3.3.3.py",
+		"/C/Users/Raphael/AppData/Local/Temp/BNZ.5a6937435012851/lectureCode_Lec5-iterMul.py",
+		"/D/Home/Program Files/Tools/SSTap-beta/config/proxylist.json",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/ps1c.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/Test2_1.py",
+		"/D/Home/Documents/IT/教程/Python/教程/MIT 2016 Fall Introduction to Computer Science and Programming in Python/01 Lectures and Materials/Lecture 02/lec2_branch_loops.py",
+		"/D/Home/Downloads/scapy/setup.py",
+		"/D/Home/Documents/IT/教程/Python/教程/MIT 2016 Fall Introduction to Computer Science and Programming in Python/03 Problem Sets/ps0/pkgtest.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/PS0.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/Test1.py",
+		"/D/Home/Documents/IT/教程/Python/教程/MIT 2016 Fall Introduction to Computer Science and Programming in Python/01 Lectures and Materials/Lecture 01/lec1.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/MIT Learning/Lecture 1",
+		"/D/Home/Program Files/Tools/SS/user-wininet.json",
+		"/D/Home/Program Files/Tools/SS/gui-config.json",
+		"/D/Home/Program Files/Tools/SS/user-rule.txt",
+		"/D/Home/Program Files/Tools/SS/pac.txt",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/Hello_World.py",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/User/SublimeTmpl/Default.sublime-commands",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/Default.sublime-commands",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/SublimeTmpl.sublime-settings",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/templates/python.tmpl",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/User/Python3.sublime-build",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/practice.py",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/ttmeiju.py",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/User/Python2.sublime-build",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/readme.md",
+		"/D/Home/Documents/Database/GitHubProjects/Laffael/Python_Study/remove",
 		"/F/Sublime/Python_Study/readme.md",
 		"/F/Sublime/Python_Study/.git/logs/HEAD",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -188,65 +483,15 @@
 		"/F/Raphael/Desktop/Dear Mr. Zuhair Awartani2.txt",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
 		"/F/Sublime/python/math.py",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin_simp.prism.bin",
-		"/F/Raphael/AppData/Roaming/Rime/installation.yaml",
-		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/luna_pinyin.extended.dict.yaml",
-		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/luna_pinyin.custom.yaml",
-		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/luna_pinyin_simp.schema.yaml",
-		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/luna_pinyin.dict.yaml",
-		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/pinyin_simp.dict.yaml",
-		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/pinyin_simp.schema.yaml",
-		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/default.yaml",
-		"/F/Raphael/AppData/Roaming/Rime/default.yaml",
-		"/F/Raphael/AppData/Roaming/Rime/default.custom.yaml",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.extended.dict.yaml",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin_simp.schema.yaml",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin_simp.custom.yaml",
-		"/F/Sublime/python/hello.py",
-		"/F/Sublime/python/hello.pyc",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin_simp.custom.yaml2",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.sogouadd.yaml",
-		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/2.txt",
-		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/饮食大全【官方推荐】.txt",
-		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/luna_pinyin.userdb.txt",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.hanyu.dict.yaml",
-		"/F/Raphael/AppData/Roaming/Rime/user.yaml",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.userdb.kct",
-		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/luna_pinyin.extended.dict.yaml",
-		"/E/Program Files (x86)/Rime/weasel-0.9.30/data/luna_pinyin.schema.yaml",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.schema.yaml",
-		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/luna_pinyin.cn_en.dict.yaml",
-		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/double_pinyin.custom.yaml",
-		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/luna_pinyin.poetry.dict.yaml",
-		"/F/快盘/分类/文档/常用文件备份/windows文件备份/各类软件设定资料备份/Rime/网络词库备份/luna_pinyin.hanyu.dict.yaml",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.sogou.table.bin",
-		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin.sogou.reverse.bin",
-		"/F/快盘/Study/编程/Sublime/各种快捷键.md",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-		"/F/快盘/Study/编程/Python/Practice/hello.py",
-		"/F/快盘/Study/编程/Python/Practice/ttmeiju.py",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
-		"/F/快盘/Study/编程/Python/Practice/practice.py",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/Main.sublime-menu",
-		"/F/Raphael/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/templates/python.tmpl",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Python2.sublime-build",
-		"/F/快盘/Study/编程/Sublime/asd.md",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Default (Windows).sublime-keymap",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/README.md",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings"
+		"/F/Raphael/AppData/Roaming/Rime/luna_pinyin_simp.prism.bin"
 	],
 	"find":
 	{
-		"height": 49.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
-		"height": 135.0,
+		"height": 179.0,
 		"where_history":
 		[
 		]
@@ -256,6 +501,35 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"正太",
+			"https",
+			"precise",
+			"trusty",
+			"willy",
+			"$Codename",
+			"http",
+			"mag",
+			"繁体",
+			"简体",
+			"magnet",
+			"f9",
+			"f10",
+			"f11",
+			"format",
+			"fomat",
+			"format",
+			"self.append_string(proc, self.debug_text)",
+			"self.append",
+			"font",
+			"ctrl+b",
+			"print",
+			"  ",
+			"#",
+			"bladehq",
+			"interpreter",
+			"interpre",
+			"dir",
+			"direc",
 			"color",
 			"2912",
 			"run currentfile",
@@ -289,29 +563,115 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "readme.md",
+					"file": "Py_Work.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50,
+						"buffer_size": 652,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								120,
+								120
 							]
 						],
 						"settings":
 						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.15.region_keys":
+							[
+								"SL.pycodestyle.Gutter.region.redish markup.deleted.sublime_linter markup.error.sublime_linter.dot",
+								"SL.pyflakes.Highlights.|region.redish markup.deleted.sublime_linter markup.error.sublime_linter|32",
+								"SL.pycodestyle.Highlights.|region.redish markup.deleted.sublime_linter markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.pyflakes.Gutter.region.redish markup.deleted.sublime_linter markup.error.sublime_linter.dot"
+							],
+							"apply_syntax_touched": true,
 							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 14,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
 							"bracket_highlighter.locations":
 							{
 								"close":
@@ -329,21 +689,11 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -354,50 +704,62 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content"
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
 							],
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+							"git_gutter_is_enabled": false,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "remove",
+					"file": "Py_Test.py",
 					"semi_transient": false,
 					"settings":
 					{
@@ -414,7 +776,100 @@
 						],
 						"settings":
 						{
+							"SL.15.region_keys":
+							[
+							],
+							"SL.27.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ",",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
 							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
 							"bracket_highlighter.locations":
 							{
 								"close":
@@ -432,11 +887,21 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -447,16 +912,134 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"git_gutter_is_enabled": false,
+							"is_init_dirty_state": true,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13565,
+								13565
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.21.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"auto_indent": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -467,28 +1050,33 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"default_dir": "D:\\Home\\Documents\\Database\\GitHubProjects\\Laffael\\Python_Study",
+							"git_gutter_is_enabled": false,
+							"is_init_dirty_state": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -496,17 +1084,391 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Py_get.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.17.region_keys":
+							[
+							],
+							"_anf_new": "",
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_gutter_is_enabled": false,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Py_Problems.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"SL.17.region_keys":
+							[
+							],
+							"SL.18.region_keys":
+							[
+							],
+							"_anf_new": "",
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_gutter_is_enabled": false,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 41.0
+		"height": 42.0
 	},
 	"input":
 	{
-		"height": 39.0
+		"height": 71.0
 	},
 	"layout":
 	{
@@ -531,9 +1493,21 @@
 		]
 	},
 	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 214.0
+	},
+	"output.autopep8":
+	{
+		"height": 214.0
+	},
 	"output.exec":
 	{
-		"height": 244.0
+		"height": 196.0
 	},
 	"output.find_results":
 	{
@@ -543,11 +1517,11 @@
 	{
 		"height": 208.0
 	},
-	"pinned_build_system": "Packages/User/Python2.sublime-build",
+	"pinned_build_system": "Packages/User/Python3.sublime-build",
 	"project": "Python_Study_Project.sublime-project",
 	"replace":
 	{
-		"height": 78.0
+		"height": 79.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -585,7 +1559,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 249.0,
+	"side_bar_width": 183.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
